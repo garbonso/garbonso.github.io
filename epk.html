@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="The District Heat is a Calgary based, indie-rock band. Their driving guitars and funky rhythms echo the energy that cascades from the stage at every one of their shows.">
+        <title>The District Heat</title>
+        <link rel="icon" href="styles/img/tdh_favicon.ico" type="image/png" />
+        <link rel="stylesheet" href="styles/style.26032015.css" type="text/css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="scripts/script.26032015.js"></script>
+    </head>
+
+    <body>
+        <!--Header-->
+        <header id="header">
+            <nav>
+                <a id="menu-icon"></a>
+                <ul id="menu">
+                    <a href="#home" class='homeLink'><li class='selected'>HOME</li></a>
+                    <a href="#bio" class='bioLink'><li>BIO</li></a> 
+                    <a href="#music" class='musicLink'><li>MUSIC</li></a>
+                    <a href="#shows" class='showsLink'><li>SHOWS</li></a>
+                    <a href="#press" class='pressLink'><li>PRESS</li></a>
+                    <a href="#videos" class='videosLink'><li>VIDEOS</li></a>
+                    <a href="#plot" class='plotLink'><li>STAGE PLOT</li></a>
+                    <a href="#contact" class='contactLink'><li>CONTACT</li></a>
+                </ul>
+            </nav>
+            <div class="social_media">
+                <a href="https://www.facebook.com/TheDistrictHeat" target="_blank">
+                    <img src="styles/img/icons/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://twitter.com/A_DistrictTweet" target="_blank">
+                    <img src="styles/img/icons/twitter.png" alt="Twitter">
+                </a>
+               <a href="http://instagram.com/thedistrictheat" target="_blank">
+                    <img src="styles/img/icons/instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.youtube.com/user/TheDistrictHeat" target="_blank">
+                    <img src="styles/img/icons/youtube.png" alt="YouTube">
+                </a>
+                <a href="http://thedistrictheat.tumblr.com/" target="_blank">
+                    <img src="styles/img/icons/tumblr.png" alt="Tumblr">
+                </a>
+                <a href="https://soundcloud.com/the-district-heat" target="_blank">
+                    <img src="styles/img/icons/soundcloud.png" alt="Soundcloud">
+                </a>
+            </div>
+        </header>
+
+        <!--Home Page-->
+        <div id="home">
+            <h1 class="header">THE DISTRICT HEAT</h1>
+            <h2>We make music</h2>
+            <div class="pictures"> 
+                <div class="flexslider">
+                  <ul class="slides">
+                    <li>
+                      <img src="styles/img/viewer/1.jpg" />
+                    </li>
+                    <li>
+                      <img src="styles/img/viewer/2.jpg" />
+                    </li>
+                    <li>
+                      <img src="styles/img/viewer/3.jpg" />
+                    </li>
+                    <li>
+                      <img src="styles/img/viewer/4.jpg" />
+                    </li>
+                    <li>
+                      <img src="styles/img/viewer/5.jpg" />
+                    </li>
+                  </ul>
+                </div>
+                  <p class='credit'>Photos courtesy of <a href="http://inwonderland.org" target='_blank'>Jennifer Swan</a> and <a href="http://kyip.ca/" target='_blank'>Kelvin Yip</a></p>
+            </div> 
+        </div>
+
+        <!--Bio Page-->
+        <div id="bio" style="display: none">
+            <div class="bio">
+                <h1>WHO ARE WE?</h1>
+                <p>After a few months out of the spotlight, The District Heat is returning to the stage with their debut album. It only takes a glance to see that their <i>energy and enthusiasm</i> on stage is a reflection of how much they <i>love what they do</i>.
+                </p>
+                <p>With a sound described as everything from the <b>Foo Fighters</b> to <b>The Shins</b>, the band blends their diverse influences into a modern rock feel. <b>Beatroute</b> has described them as "bluesy rock with pop sensibility". This meld of genres has given The District Heat a very unique sound that has qualities everyone can enjoy.
+                </p>
+            </div>
+            <div class="self_bios">
+                <div class='self_bio'>
+                    <h2>SEAN SWANTON</h2>
+                    <div id='frame' style="background-image: url('styles/img/bio/sean.jpg');">
+                        <div class='overlay' id='frame'>
+                            <p>&quot;Sorry, what?&quot; - Stew</p>
+                            <p>&quot;He gave me this shirt.&quot; - Francis</p>
+                            <p>&quot;I hear he likes buying tights.&quot; - Brandon</p>
+                        </div>
+                    </div>
+                    <h3>LEAD GUITAR, VOCALS</h3>
+                </div>
+                <div class='self_bio'>
+                    <h2>STEW BURY-JONES</h2>
+                    <div id='frame' style="background-image: url('styles/img/bio/stew.jpg');">
+                        <div class='overlay' id='frame'>
+                            <p>&quot;He likes celestial bodies if you know what I mean...? No, like stars and planets and stuff.&quot; - Francis</p>
+                            <p>&quot;He's pretty funny.&quot; - Brandon</p>
+                            <p>&quot;Yeah, he's an alright drummer I guess.&quot; - Sean</p>
+                        </div>
+                    </div>
+                    <h3>DRUMS</h3>
+                </div>
+                <div class='self_bio'>
+                    <h2>BRANDON GREER</h2>
+                    <div id='frame' style="background-image: url('styles/img/bio/brandon.jpg');">
+                        <div class='overlay' id='frame'>
+                            <p>&quot;He's a nice dresser.&quot; - Sean</p>
+                            <p>&quot;He actually gets my jokes.&quot; - Stew</p>
+                            <p>&quot;He's the bass player, right?&quot; - Francis</p>
+                        </div>
+                    </div>
+                    <h3>BASS</h3>
+                </div>
+                <div class='self_bio'>
+                    <h2>FRANCIS LEVESQUE</h2>
+                    <div id='frame' style="background-image: url('styles/img/bio/francis.jpg');">
+                        <div class='overlay' id='frame'>
+                            <p>&quot;Something about hacking?&quot; - Brandon</p>
+                            <p>&quot;He's always doing stuff with those computer things.&quot; - Sean</p>
+                            <p>&quot;Who?&quot; - Stew</p>
+                        </div>
+                    </div>
+                    <h3>LEAD VOCALS, GUITAR</h3>
+                </div>
+            </div>
+        </div>
+
+        <!--Music Page-->
+        <div id="music" style="display: none">
+            <div class="music">
+                <h1>WHAT YOU CAME FOR</h1>
+                <div class="player">
+                    <div id="amazingaudioplayer-1" style="width:300px;height:164px;">
+                        <ul class="amazingaudioplayer-audios" style="display:none;">
+                            <li data-artist="The District Heat" data-title="Mask" data-album="The District Heat" data-info="" data-image="styles/img/cover.jpg" data-duration="208">
+                                <div class="amazingaudioplayer-source" data-src="songs/Mask.mp3" data-type="audio/mpeg" />
+                            </li>
+                            <li data-artist="The District Heat" data-title="Slingshot Stride" data-album="The District Heat" data-info="" data-image="styles/img/cover.jpg" data-duration="187">
+                                <div class="amazingaudioplayer-source" data-src="songs/Slingshot Stride.mp3" data-type="audio/mpeg" />
+                            </li>
+                            <li data-artist="The District Heat" data-title="Wallflower" data-album="The District Heat" data-info="" data-image="styles/img/cover.jpg" data-duration="219">
+                                <div class="amazingaudioplayer-source" data-src="songs/Wallflower.mp3" data-type="audio/mpeg" />
+                            </li>
+                            <li data-artist="The District Heat" data-title="Sweet Sally" data-album="The District Heat" data-info="" data-image="styles/img/cover.jpg" data-duration="308">
+                                <div class="amazingaudioplayer-source" data-src="songs/Sweet Sally.mp3" data-type="audio/mpeg" />
+                            </li>
+                            <li data-artist="The District Heat" data-title="A Precarious Nature" data-album="The District Heat" data-info="" data-image="styles/img/cover.jpg" data-duration="312">
+                                <div class="amazingaudioplayer-source" data-src="songs/A Precarious Nature.mp3" data-type="audio/mpeg" />
+                            </li>
+                            <li data-artist="The District Heat" data-title="Moon Walking is for Giants" data-album="The District Heat" data-info="" data-image="styles/img/cover.jpg" data-duration="219">
+                                <div class="amazingaudioplayer-source" data-src="songs/Moon Walking is for Giants.mp3" data-type="audio/mpeg" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="badges">
+                    <div class="badge">
+                        <a href="https://play.google.com/store/music/album/The_District_Heat_The_District_Heat?id=B3chzllo3bzfdf7jt4xkmhz5tym&hl=en" target="_blank">
+                          <img alt="Get it on Google Play"
+                               src="styles/img/badges/google.png" />
+                        </a>
+                    </div>
+                    <div class="badge">         
+                        <a href="https://itunes.apple.com/us/album/the-district-heat/id936567387?ign-mpt=uo%3D4" target="_blank">
+                          <img alt="Available on iTunes"
+                               src="styles/img/badges/itunes.png" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Videos Page-->
+        <div id="videos" style="display: none">
+            <div class="videos">
+                <h1>CINEMATOGRAPHY</h1>
+                <div class="videos-container">
+                    <iframe src="https://www.youtube.com/embed/pawGAE-vrjQ?wmode=transparent" frameborder="0"></iframe>
+                </div>
+                </br>
+                </br>
+                <div class="videos-container">
+                    <iframe src="https://www.youtube.com/embed/oUzj7WniLGc?wmode=transparent" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!--Press Page-->
+        <div id="press" style="display: none">
+            <div class="press">
+                <h1>WHAT PEOPLE ARE SAYING</h1>
+                <div class="quotes">
+                    <blockquote>
+                        <p class="quote">
+                            After that was Sean, Stewart, Francis, and Brandon , the boys from The District Heat. They call themselves an Indie act , but their <b>original sound and songs scream pure rock and roll</b> , look them up on Itunes and throw them support , watch for these guys , with their <i>great stage presence and polished sound</i>, they are destined for big things. we would love to share the bill with you guys again any time.
+                        </p>
+                    </blockquote>
+                    <p class="signature">
+                        <a href="https://www.facebook.com/VTBROCKS/posts/780979635289862" target="_blank">Vicariously Through Bruce - Feb 22, 2015</a>
+                    </p>
+                </div>
+                <div class="quotes">
+                    <blockquote>
+                        <p class="quote">
+                            [The] District Heat released their self-titled album that night and kicked the evening off with a bang, playing <i>bluesy rock</i> with <i>pop sensibility</i> and mixing in <b>more harmonies than The Beatles could shake a stick at</b>. They had the crowd in the palm of their hands and it was easy to tell they were all on a performance high that only they could understand because all of their hard work had finally come to fruition.
+                        </p>
+                    </blockquote>
+                    <p class="signature">
+                        <a href="http://beatroute.ca/2014/12/05/black-phoenix-orchestra-open-air-cygnets-at-dickens-pub/" target="_blank">Beatroute - Nov 8, 2014</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--Shows Page-->
+        <div id="shows" style="display: none">
+            <div class='shows'>
+                <h1>UPCOMING SHOWS</h1>
+                <div class='shows_container'>
+                    <div class='show'>
+                        <a href="http://www.whiskeycreekpub.ca/" target="_blank">
+                            <img src="styles/img/venues/whiskey_creek_logo.jpg" alt="Whiskey Creek Pub"></a>
+                        <p>Medicine Hat, AB</p>
+                        <p>May 28, 2015</p>
+                    </div>
+                    <div class='show'>
+                        <a href="http://www.limelightyyc.ca/" target="_blank">
+                            <img src="styles/img/venues/limelight_logo.jpg" alt="Limelight Music Festival"></a>
+                        <p>Calgary, AB</p>
+                        <p>May 20 &amp; 21, 2016</p>
+                    </div>
+                </div>
+                <!-- <div class='shows_container'>
+                </div> -->
+            </div>
+            <hr>
+            <div class="past_shows">
+                <h1>PAST SHOWS</h1>
+                <div class="past_show">
+                    <p>May 2, 2015</p>
+                    <p>Calgary, AB</p>
+                    <p class="venue">THE BLIND BEGGAR</p>
+                </div>
+                <div class="past_show">
+                    <p>March 21, 2015</p>
+                    <p>Calgary, AB</p>
+                    <p class="venue">WINE-OHS</p>
+                </div>
+                <div class="past_show">
+                    <p>February 21, 2015</p>
+                    <p>Calgary, AB</p>
+                    <p class="venue">VERN'S BAR</p>
+                </div>
+                <div class="past_show">
+                    <p>January 10, 2015</p>
+                    <p>Calgary, AB</p>
+                    <p class="venue">OCL STUDIOS</p>
+                </div>
+                <div class="past_show">
+                    <p>November 28, 2014</p>
+                    <p>Calgary, AB</p>
+                    <p class="venue">THE BLIND BEGGAR</p>
+                </div>
+                <div class="past_show">
+                    <p>November 8, 2014</p>
+                    <p>Calgary, AB</p>
+                    <p class="venue">DICKENS PUB</p>
+                </div>
+                <div class="past_show">
+                    <p>June 27, 2014</p>
+                    <p>Calgary, AB</p>
+                    <p class="venue">VERN'S BAR</p>
+                </div>
+                <div class="past_show">
+                    <p>December 28, 2013</p>
+                    <p>Bragg Creek, AB</p>
+                    <p class="venue">THE POWDERHORN SALOON</p>
+                </div>
+                <div class="past_show">
+                    <p>October 5, 2013</p>
+                    <p>Calgary, AB</p>
+                    <p class="venue">THE UNICORN PUB</p>
+                </div>
+                <div class="past_show">
+                    <p>August 17, 2013</p>
+                    <p>Calgary, AB</p>
+                    <p class="venue">WORLD BIER HAUS 1600</p>
+                </div>
+                <div class="past_show">
+                    <p>August 3, 2013</p>
+                    <p>Calgary, AB</p>
+                    <p class="venue">THE UNICORN PUB</p>
+                </div>
+                <div class="past_show">
+                    <p>June 1, 2013</p>
+                    <p>Calgary, AB</p>
+                    <p class="venue">STUDIO 37</p>
+                </div>
+                <div class="past_show">
+                    <p>April 5, 2013</p>
+                    <p>Calgary, AB</p>
+                    <p class="venue">HSCA</p>
+                </div>
+                <div class="past_show">
+                    <p>March 17, 2013</p>
+                    <p>Calgary, AB</p>
+                    <p class="venue">SWIGS PUB & GRILL</p>
+                </div>
+                <div class="past_show">
+                    <p>Feb 17, 2013</p>
+                    <p>Calgary, AB</p>
+                    <p class="venue">THE BLIND BEGGAR</p>
+                </div>
+                <div class="past_show">
+                    <p>Dec 21, 2012</p>
+                    <p>Calgary, AB</p>
+                    <p class="venue">THE BLIND BEGGAR</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Stage Plot Page-->
+        <div id="plot" style="display: none">
+            <div class="plot">
+                <h1>THIS IS OUR SETUP</h1>
+                <img src="styles/img/plot/stage_plot.jpg" alt="Stage Plot">
+                <h2>Totals:</h2>
+                <p>2 x Vocal Microphones</p>
+                <p>2 x Instrument Microphones (for Guitar Amps)</p>
+                <p>1 x Direct-In Box (for Bass)</p>
+                <p>5 x XLR Cables</p>
+                <p>6 x 1/4" Phono Cables</p>
+                <p>9 x Power Cables</p>
+                <p>Drum mics (as per Venue)</p>
+                <hr>
+                <h2>Supplied by us:</h2>
+                <p>1 x Vox Guitar Amp with Power Cable</p>
+                <p>1 x Fender Guitar Amp with Power Cable</p>
+                <p>1 x Ibanez Bass Amp with Power Cable (optional; not necessary if Monitor is available)</p>
+                <p>2 x Guitars with all necessary 1/4" Phono Cables, Pedals, and Power Cables</p>
+                <p>1 x Bass Guitar with 2 1/4" Phono Cables</p>
+                <p>1 x Drum Kit (Single Bass Drum, 4 Toms, Snare, Hit-Hat and Cymbals)</p>
+            </div>
+        </div>
+
+        <!--Contact Page-->
+        <div id="contact" style="display: none">
+            <div class="contact">
+                <h1>GET IN TOUCH</h1>
+                <img src="styles/img/contact/the_band.jpg" alt="The District Heat">
+                <div class="icons">
+                    <div class='icon'>
+                        <a href="mailto:thedistrictheat@gmail.com" target="_blank">
+                            <img src="styles/img/icons/mail.png" alt="Email">
+                        </a>
+                    </div>
+                    <div class='icon'>
+                        <a href="https://www.facebook.com/TheDistrictHeat" target="_blank">
+                            <img src="styles/img/icons/facebook.png" alt="Facebook">
+                        </a>
+                    </div>
+                    <div class='icon'>
+                        <a href="https://twitter.com/A_DistrictTweet" target="_blank">
+                            <img src="styles/img/icons/twitter.png" alt="Twitter">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <div class='footer'>
+            <p>© 2014 STEW BURY-JONES, BRANDON GREER, FRANCIS LEVESQUE, AND SEAN SWANTON.</p>
+        </div>
+
+        <script src="audioplayerengine/amazingaudioplayer.js"></script>
+        <script src="audioplayerengine/initaudioplayer-1.js"></script>
+    </body>
+</html>
